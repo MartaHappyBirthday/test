@@ -85,7 +85,7 @@ function App() {
                 className={`answer_button${count}`}
                 count={answers[count].group[2].value}
                 onClick={() => {
-                  nextQuestion.bind(null, answers[count].group[0].value)();
+                  nextQuestion.bind(null, answers[count].group[2].value)();
                 }}
               >
                 {sex === "male"
@@ -121,6 +121,14 @@ function App() {
     finalContainer = "final_container1f";
   } else if (answerValue === 2 && sex === "female") {
     finalContainer = "final_container2f";
+  } else if (answerValue === 3 && sex === "male") {
+    finalContainer = "final_container3m";
+  } else if (answerValue === 4 && sex === "male") {
+    finalContainer = "final_container4m";
+  } else if (answerValue === 3 && sex === "female") {
+    finalContainer = "final_container3f";
+  } else if (answerValue === 4 && sex === "female") {
+    finalContainer = "final_container4f";
   }
   return (
     <div className={finalContainer}>

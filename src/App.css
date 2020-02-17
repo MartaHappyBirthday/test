@@ -361,7 +361,11 @@
 .final_container1f,
 .final_container1m,
 .final_container2m,
-.final_container2f {
+.final_container2f,
+.final_container3f,
+.final_container4f,
+.final_container3m,
+.final_container4m {
   /* background: url("./img/final_backpng.png"); */
   background-size: cover;
   background-position: 100% 30%;
@@ -374,21 +378,42 @@
   z-index: 10;
 }
 .final_container1m {
-  background: url("./img/final1f.png");
-}
-.final_container1f {
-  background: url("./img/final1m.png");
-}
-.final_container2m {
   background: url("./img/final2f.png");
 }
-.final_container2f {
+.final_container1f {
   background: url("./img/final2m.png");
+}
+.final_container2m {
+  background: url("./img/final1f.png");
+}
+.final_container2f {
+  background: url("./img/odri.png");
+  /* background-size: 100% 105% !important; */
+}
+.final_container3f {
+  background: url("./img/uma.png");
+  /* background-size: 100% 105% !important; */
+}
+.final_container4f {
+  background: url("./img/dizzi.png");
+  /* background-size: 100% 110% !important; */
+}
+.final_container3m {
+  background: url("./img/harry.png");
+  /* background-size: 100% 160% !important; */
+}
+.final_container4m {
+  background: url("./img/ben.png");
+  /* background-size: 100% 140% !important; */
 }
 .final_container1m,
 .final_container1f,
 .final_container2m,
-.final_container2f {
+.final_container2f,
+.final_container3f,
+.final_container4f,
+.final_container3m,
+.final_container4m {
   background-size: cover;
   background-size: 100% 100%;
   position: absolute;
@@ -399,7 +424,21 @@
   height: 100%;
   z-index: 10;
 }
-
+.final_container2f {
+  background-size: 100% 105%;
+}
+.final_container3f {
+  background-size: 100% 105%;
+}
+.final_container4f {
+  background-size: 100% 110%;
+}
+.final_container3m {
+  background-size: 100% 160%;
+}
+.final_container4m {
+  background-size: 100% 140%;
+}
 .final_info {
   position: absolute;
   width: 40%;
@@ -471,10 +510,26 @@
   .final_container2f {
     background: url("./img/ivi.png");
   }
+  .final_container3f {
+    background: url("./img/umam.png");
+  }
+  .final_container4f {
+    background: url("./img/dizzim.png");
+  }
+  .final_container3m {
+    background: url("./img/harrym.png");
+  }
+  .final_container4m {
+    background: url("./img/benm.png");
+  }
   .final_container1m,
   .final_container1f,
   .final_container2m,
-  .final_container2f {
+  .final_container2f,
+  .final_container3f,
+  .final_container4f,
+  .final_container3m,
+  .final_container4m {
     background-size: 260% 100%;
     background-position: 55% 10%;
     flex-direction: column;
@@ -484,6 +539,22 @@
   }
   .final_container1f {
     background-size: 105% 100%;
+  }
+  .final_container4m {
+    background-size: 330% 100%;
+    background-position: 40% 10%;
+  }
+  .final_container3m {
+    background-size: 330% 107%;
+    background-position: 39% 100%;
+  }
+  .final_container4f {
+    background-size: 315% 103%;
+    background-position: 39% 100%;
+  }
+  .final_container3f {
+    background-size: 320% 103%;
+    background-position: 39% 100%;
   }
   .finalWords {
     color: white;
