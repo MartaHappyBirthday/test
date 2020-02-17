@@ -499,16 +499,16 @@
 
 @media (max-width: 860px) {
   .final_container1m {
-    background: url("./img/jay.png");
-  }
-  .final_container2m {
     background: url("./img/carlos.png");
   }
+  .final_container2m {
+    background: url("./img/jay.png");
+  }
   .final_container1f {
-    background: url("./img/mel.png");
+    background: url("./img/ivi.png");
   }
   .final_container2f {
-    background: url("./img/ivi.png");
+    background: url("./img/odrim.png");
   }
   .final_container3f {
     background: url("./img/umam.png");
@@ -538,7 +538,12 @@
     line-height: 5vh;
   }
   .final_container1f {
-    background-size: 105% 100%;
+    background-size: 260% 100%;
+    background-position: 55% 10%;
+  }
+  .final_container2f {
+    background-size: 330% 100%;
+    background-position: 40% 10%;
   }
   .final_container4m {
     background-size: 330% 100%;
